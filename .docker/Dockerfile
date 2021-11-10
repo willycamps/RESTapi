@@ -27,8 +27,8 @@ RUN apt update && apt install -y \
     && docker-php-ext-install zip \
     && docker-php-source delete
 
-COPY vhost.conf /etc/apache2/sites-available/000-default.conf
+COPY .docker/vhost.conf /etc/apache2/sites-available/000-default.conf
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-RUN chown -R www-data:www-data /var/www/html && a2enmod rewrite
+RUN chown -R www-data:www-data . && a2enmod rewrite
