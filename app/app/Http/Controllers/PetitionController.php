@@ -15,6 +15,7 @@ class PetitionController extends Controller
     public function index()
     {
         //
+        
     }
 
     /**
