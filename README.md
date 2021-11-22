@@ -48,7 +48,6 @@ Make sure you have Docker installed. Please follow the below link for official d
 ## TODO
 
 ## Change Log
-* v0.2 - Integrate Authentication.
-* v0.1 - Initial release.
+* v0.1 - Initial
 
 
