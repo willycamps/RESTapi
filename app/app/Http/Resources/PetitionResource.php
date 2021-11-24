@@ -17,6 +17,6 @@ class PetitionResource extends JsonResource
         return [
             'id' => $this->id,
             'title' => $this->title
-        ]
+        ];
     }
 }

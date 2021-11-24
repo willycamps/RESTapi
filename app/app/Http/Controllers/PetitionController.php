@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Petition;
 use Illuminate\Http\Request;
-//use App\Models\Petition;
+
 use App\Http\Resources\PetitionResource;
+use App\Http\Resources\PetitionCollection;
 
 class PetitionController extends Controller
 {
